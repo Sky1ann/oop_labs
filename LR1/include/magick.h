@@ -1,0 +1,1 @@
+bool magick(const std::string&);
