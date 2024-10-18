@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblab3_lib.a CMakeFiles/lab3_lib.dir/src/figure.cpp.o CMakeFiles/lab3_lib.dir/src/rectangle.cpp.o CMakeFiles/lab3_lib.dir/src/rhombus.cpp.o CMakeFiles/lab3_lib.dir/src/trapezoid.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblab3_lib.a
