@@ -41,25 +41,8 @@ public:
         }
 
         std::vector<Point<T>> points = {a, b, c, d};
-        bool valid = false;
 
-        for (size_t i = 0; i < points.size(); ++i) {
-            for (size_t j = i + 1; j < points.size(); ++j) {
-                for (size_t k = j + 1; k < points.size(); ++k) {
-                    for (size_t l = k + 1; l < points.size(); ++l) {
-                        if (obj->isValidTrapezoid(points[i], points[j], points[k], points[l])) {
-                            valid = true;
-                            break;
-                        }
-                    }
-                    if (valid) break;
-                }
-                if (valid) break;
-            }
-            if (valid) break;
-        }
-
-        if (!valid) {
+        if (!(obj->isValidTrapezoid(points[i], points[j], points[k], points[l]))) {
             throw std::invalid_argument("Введенные точки не образуют трапецию");
         }
 
