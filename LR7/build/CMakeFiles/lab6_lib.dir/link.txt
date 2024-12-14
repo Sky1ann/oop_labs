@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblab6_lib.a CMakeFiles/lab6_lib.dir/src/dragon.cpp.o CMakeFiles/lab6_lib.dir/src/knight.cpp.o CMakeFiles/lab6_lib.dir/src/npc.cpp.o CMakeFiles/lab6_lib.dir/src/pegas.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblab6_lib.a
